@@ -6,3 +6,4 @@ This program can be used to create executable exe which link to the original exe
 ## configfile
 edit the config file to adjust the shell code and the technique to be used and the exe file to make trojan of
 
+then complie using g++, change icon if you want to 
